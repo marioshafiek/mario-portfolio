@@ -11,7 +11,9 @@
       <side-bar />
     </q-drawer>
     <q-page-container>
-      <router-view />
+      <div class="backgroundPattern">
+        <router-view />
+      </div>
     </q-page-container>
   </q-layout>
 </template>
@@ -42,5 +44,11 @@ export default {
 }
 .q-drawer--left.q-drawer--bordered {
   border: none;
+}
+.backgroundPattern {
+  background-color: #161617;
+  opacity: 0.1;
+  background-image: radial-gradient(white 0.1px, #161617 0.8px);
+  background-size: 10px 10px;
 }
 </style>

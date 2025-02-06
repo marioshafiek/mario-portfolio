@@ -1,8 +1,10 @@
 <template>
   <div class="headerContainer">
     <div>
-      <q-avatar rounded>
-        <img src="https://cdn.quasar.dev/img/avatar.png" />
+      <q-avatar rounded size="xl">
+        <img
+          src="https://framerusercontent.com/images/Y7xGl21aQgHVU4UiWLBvVfD1dU.jpg?scale-down-to=512"
+        />
       </q-avatar>
     </div>
     <!--Info-->
@@ -20,7 +22,7 @@ export default {}
 <style>
 .headerContainer {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   align-items: center;
 }
 .info {
