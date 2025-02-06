@@ -2,7 +2,9 @@
   <!--Container-->
   <div class="container">
     <!--Header-->
-    <div>Header</div>
+    <div>
+      <side-header />
+    </div>
     <!--Links-->
     <div>Links</div>
 
@@ -21,8 +23,12 @@
 </template>
 
 <script>
+import sideHeader from './components/sideHeader.vue'
 export default {
   name: 'SideBar',
+  components: {
+    sideHeader,
+  },
 }
 </script>
 
