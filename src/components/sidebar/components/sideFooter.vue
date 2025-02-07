@@ -22,7 +22,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 50px;
 }
 .date {
   display: flex;
@@ -45,9 +45,9 @@ export default {
   width: 100%;
   height: 100px;
   transform: translateY(-50%);
-  background-color: #ff0000;
+  background-color: #00ff91;
   filter: blur(800px); /* Adjust the blur to control glow softness */
-  opacity: 0.3; /* Adjust opacity for a subtle effect */
+  opacity: 0.2; /* Adjust opacity for a subtle effect */
   z-index: 0; /* Ensure the glow is behind other content */
 }
 .download {

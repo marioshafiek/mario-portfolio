@@ -40,7 +40,7 @@ export default {
 <style>
 .drawer {
   background-color: #161617;
-  border-right: 2px solid #282729;
+  border-right: 2px dashed #282729;
 }
 .q-drawer--left.q-drawer--bordered {
   border: none;
@@ -50,5 +50,15 @@ export default {
   opacity: 0.1;
   background-image: radial-gradient(white 0.1px, #161617 0.8px);
   background-size: 10px 10px;
+}
+.drawer-toggle {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+.btnDrawer {
+  padding-left: 10px;
+  padding-top: 10px;
 }
 </style>
